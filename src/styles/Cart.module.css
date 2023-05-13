@@ -1,0 +1,207 @@
+
+
+.itemContentLarge {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 10px !important;
+    padding: 10px 2px;
+}
+.itemContentLarge h4{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.itemContentLarge p{
+    margin-bottom: 2px;
+    font-size: 13px;
+    color: #767676;
+}
+
+.itemContentSmall {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 10px !important;
+    padding: 5px 2px;
+}
+
+.itemContentSmall .content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 4px;
+}
+.itemContentLarge .content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 4px;
+}
+.itemContentSmall h4{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    color: black;
+}
+
+.itemContentSmall p{
+    margin-bottom: 0px;
+    margin-right: 5px;
+    font-size: 11px;
+    color: #292929;
+    font-weight: 500;
+}
+
+.productDiscount {
+    font-size: 1.0rem;
+    color: #cb0000;
+}
+.productDiscountSmall {
+    font-size: 0.8rem;
+    color: #cb0000;
+}
+.productTileDiscount {
+    font-size: 15px;
+    color: #d60000;
+    margin: 0px 4px;
+    margin-bottom: -5px;
+}
+
+.productSalingPrice {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 26px;
+    color: #000;
+}
+.productSalingPrice sup {
+    top: -0.3em;
+    font-size: 15px;
+}
+.productTileSalingPrice {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 0px 4px;
+}
+.productTileSalingPrice sup {
+    top: -0.38em;
+    font-size: 14px;
+}
+.productMrp {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #656565;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+.productMrpSmall {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #656565;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+.productMrp strike {
+    margin: 0px 10px;
+}
+.productTileMrp {
+    color: #8a8a8a;
+    font-weight: 400;
+    font-size: 15px;
+    display: block;
+    margin: 0px 4px;
+    margin-bottom: -5px;
+}
+.productIat {
+    display: block;
+}
+
+.productPrice {
+    font-size: 0.9375rem !important;
+    font-weight: 700;
+    margin: 0px 5px;
+}
+.productPrice strike{
+    color: #8a8a8a;
+    font-weight: 400;
+}
+.ap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    width: 95%;
+    align-items: center;
+}
+.itemPriceContainer {
+    display: flex;
+    width: 95%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkOutList {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+.checkOutListItem {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.checkOutListItem p {
+    font-size: 13px;
+    margin: 0px;
+    margin-bottom: 8px;
+    color: #515151;
+}
+.checkOutListItem p b{
+    font-weight: 400;
+    color: black;
+}
+
+.checkOutListItem h4{
+    font-size: 20px;
+}
+.checkOutListItem h3{
+    font-size: 20px;
+}
+.checkOutListItem h3 small{
+    font-size: 14px;
+    color: #5f5f5f;
+}

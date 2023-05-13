@@ -1,0 +1,105 @@
+.orderTile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    background: #ffffff;
+    margin-bottom: 5px;
+}
+
+.orderImage {
+    flex: 1;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    margin: 15px;
+}
+
+.orderContent {
+    flex: 4;
+}
+.orderAction {
+    flex: 1;
+    padding: 15px;
+}
+.orderId {
+    font-size: 14px;
+    color: #8f0000;
+}
+.productName {
+    font-size: 18px;
+    color: #000;
+}
+.orderAttributes {}
+.orderAttributes p{
+    margin-bottom: 2px;
+    font-size: 14px;
+}
+.orderAttributes p a{
+    font-size: 16px;
+    color: darkcyan;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.detailsPanel {
+    width: 30rem !important;
+}
+.detailsPanel  .p-sidebar-content { 
+    margin-top: -30px !important;
+}
+
+.orderDetails {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+.orderDetails h6{
+    color: #000000;
+    font-size: 14px;
+}
+
+.orderDetailsInner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #dadada;
+    padding-bottom: 12px;
+}
+.orderDetailsInner .item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.orderDetailsInner .item h4 {
+    font-size: 18px;
+    color: #523607;
+}
+.orderDetailsInner .item p {
+    margin-bottom: 4px;
+    font-size: 14px;
+    color: #5b5b5b;
+}
+
+.orderDetailsInner .item p b{
+    margin-bottom: 4px;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 500;
+    text-align: right;
+}

@@ -1,0 +1,23 @@
+.section {
+    padding: 35px 35px;
+}
+
+.swiperItem {
+    
+}
+.swiperItem div{
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .section {
+        padding: 5px 5px !important;
+    }
+    .swiperItem div{
+        background-size: cover;
+    }
+}

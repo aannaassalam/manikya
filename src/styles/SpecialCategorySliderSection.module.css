@@ -1,0 +1,33 @@
+
+.box {
+    height: 200px;
+    background-color: var(--light-gray-color);
+    margin: 8px 0px;
+}
+.SpecialCategorySliderSection {
+    /* padding: 10px 10px; */
+}
+
+.swiperSpecial {
+    width: 100%;
+    /* height: 200px !important; */
+}
+.item{
+    /* width: 350px; */
+
+    
+}
+.item div{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .SpecialCategorySliderSection {
+        /* padding: 5px 5px; */
+    }
+}

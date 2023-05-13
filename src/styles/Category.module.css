@@ -1,0 +1,110 @@
+/* .category {
+    margin: 10px;
+} */
+.categoryListSection{
+    /* padding: 40px 20px; */
+}
+.box {
+    height: 200px;
+    background-color: var(--light-gray-color);
+    margin: 8px 0px;
+}
+.categoryTile {
+    min-height: 230px;
+    background-color: var(--light-gray-color);
+    margin: 5px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.categoryTileInner {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #000000b0;
+    position: absolute;
+    width: 96%;
+    height: 0%;
+    /* height: 90.5% !important; */
+    bottom: 6px;
+    left: 5px;
+    transition: 0.2s all ease-out;
+    cursor: pointer;
+}
+
+.categoryTitle {
+    color: #fff !important;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-shadow: 0 0 4px black;
+}
+
+.categoryBtn {
+    color: rgb(255, 255, 255) !important;
+    background-color: #00000094;
+    border-color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 5px 15px;
+}
+
+.categoryBtn:hover {
+    color: rgb(0, 0, 0) !important;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+.onHoverShow {
+    display: none;
+}
+
+.categoryTile:hover .categoryTileInner {
+    height: 95.5% !important;
+}
+
+.categoryTile:hover .onHoverShow {
+   display: block;
+}
+.categoryWiseProduct {
+    padding: 60px 60px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .categoryListSection {
+        /* padding: 10px 5px !important; */
+    }
+
+    .categoryTile {
+        min-height: 165px !important;
+        margin: 5px !important;
+    }
+    .categoryTileInner {
+        bottom: 0px !important;
+        left: 0px !important;
+        width: 100% !important;
+    }
+    .categoryTile:hover .categoryTileInner {
+
+        height: 94% !important;
+        margin: 5px 5px !important;
+        width: 94% !important;
+        padding: 8px;
+    }
+    .categoryTitle {
+        font-size: 15px !important;
+    }
+    .categoryBtn{
+        padding: 4px 10px !important;
+        font-size: 12px !important;
+        margin-top: 5px !important;
+    }
+    .categoryWiseProduct {
+        padding: 70px 15px;
+    }
+}

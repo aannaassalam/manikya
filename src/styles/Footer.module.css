@@ -1,0 +1,43 @@
+.title {
+    color: #ffce7d;
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.links {
+    padding: 0px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+.footerLink {
+    font-size: 14px;
+    font-weight: 300;
+    color: #dbdbdb !important;
+}
+
+.footerLink:hover {
+    text-decoration: none;
+    color: #ffedcf !important;
+}
+
+.phone {
+    font-size: 20px !important;
+    color: #ffd896;
+    margin-bottom: 15px;
+}
+
+.footerLogo {
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) { 
+    .footerLogo {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 25px;
+    }
+}
